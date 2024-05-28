@@ -97,7 +97,7 @@ input_image_path = 'hazy_image.jpg'
 output_image_path = 'dehazed_image.jpg'
 
 # Read the input image
-image = cv2.imread("C:/Users/Shrutika/Downloads/Pollution7.jpeg")
+image = cv2.imread(input_image_path)
 
 # Apply dehazing
 dehazed_image = dehaze(image)
